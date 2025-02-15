@@ -66,7 +66,7 @@
         <h2>REFERANSLAR</h2>
         <div class="section-desc row align-items-center justify-content-center">
             <div class="col-lg-12">
-                <p>Şehir yaşamını güvenli, fonksiyonel ve estetik çözümlerle şekillendiriyoruz.</p>
+                <p>Firmanıızın kurumsal kimliğine uygun profesyonel çözümler sunuyoruz.</p>
             </div>
         </div>
     </div>

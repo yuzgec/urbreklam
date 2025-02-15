@@ -11,9 +11,9 @@
                                     <div class="meta m-0">
                                         <div class="category text-olive text-uppercase">{{ config('settings.siteTitle')}}</div>
                                     </div>
-                                    <h4><a href="{{route('home')}}/hizmet/atm-kabini-imalati" class="text-white">ATM KABİN İMALATI</a></h4>
+                                    <h4><a href="{{route('home')}}/hizmet/kutu-harf-tabela" class="text-white">KUTU HARF TABELA</a></h4>
                                     <div class="details_link">
-                                        <a href="{{route('home')}}/hizmet/atm-kabini-imalati">
+                                        <a href="{{route('home')}}/hizmet/kutu-harf-tabela">
                                             <span class="link_text">İncele</span> 
                                             <span class="link_icon">
                                                 <span class="line"></span> 
@@ -36,9 +36,9 @@
                                     <div class="meta m-0">
                                         <div class="category text-olive text-uppercase">{{ config('settings.siteTitle')}}</div>
                                     </div>
-                                    <h4><a href="{{route('home')}}/hizmet/atm-kabini-imalati" class="text-white">BİLET GİŞESİ İMALATI</a></h4>
+                                    <h4><a href="{{route('home')}}/hizmet/konusma-kursusu" class="text-white">KONUŞMA KÜRSÜSÜ</a></h4>
                                     <div class="details_link">
-                                        <a href="{{route('home')}}/hizmet/atm-kabini-imalati">
+                                        <a href="{{route('home')}}/hizmet/konusma-kursusu">
                                             <span class="link_text">İncele</span> 
                                             <span class="link_icon">
                                                 <span class="line"></span> 
@@ -62,9 +62,9 @@
                                     <div class="meta m-0">
                                         <div class="category text-olive text-uppercase">{{ config('settings.siteTitle')}}</div>
                                     </div>
-                                    <h4><a href="{{route('home')}}/hizmet/atm-kabini-imalati" class="text-white">BİLET GİŞESİ İMALATI</a></h4>
+                                    <h4><a href="{{route('home')}}/hizmet/isikli-ve-isiksiz-tabela" class="text-white">IŞIKLI TABELA</a></h4>
                                     <div class="details_link">
-                                        <a href="{{route('home')}}/hizmet/atm-kabini-imalati">
+                                        <a href="{{route('home')}}/hizmet/isikli-ve-isiksiz-tabela">
                                             <span class="link_text">İncele</span> 
                                             <span class="link_icon">
                                                 <span class="line"></span> 

@@ -35,7 +35,7 @@
             <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000">
                 <div class="section-header">
                     <h1 class="text-white text-uppercase mb-4">İLETİŞİM</h1>
-                    <p class="gray-600"> Urban Kabin, şehir yaşamına özel güvenli, fonksiyonel ve estetik kabin çözümleri sunmaktadır.
+                    <p class="gray-600"> Urban Reklam & Tabela, şehir yaşamına özel güvenli, fonksiyonel ve estetik kabin çözümleri sunmaktadır.
                          Her ihtiyacınıza özel çözümler üretmek için sizinle çalışmaya hazırız.</p>
 
                        <p class="gray-600"> Mesajınıza en kısa zamanda dönüş yapılacaktır.</p>

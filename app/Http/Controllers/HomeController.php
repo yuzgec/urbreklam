@@ -18,8 +18,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 class HomeController extends Controller
 {
     public function index(){
-        SEOMeta::setTitle('WC Kabin - Otomat İmalatı');
-        SEOMeta::setDescription('Urban Kabin ATM kabini, WC Kabin, Otomatik kabin ve diğer kabin imalatlarını yapmaktadır. Lütfen iletişime geçiniz.');
+        SEOMeta::setDescription('Urban Reklam, Krom, Kutu, Totem, Işıklı tabela imalatı, fuar standı, konuşma kürsüsü  yapmaktadır.. Lütfen iletişime geçiniz.');
         SEOMeta::setCanonical(url()->full());
         
         $Hakkimizda = Page::where('id', '=',1)->first();
