@@ -328,23 +328,41 @@
 
 <div class="container " style="z-index: 1000;">
     <div class="row">
-        <div class="col-lg-12 content">
+        <div class="col-lg-12">
             <div class="card mb-3 mt-3">
-                <div class="card-header">
-                    <h4 class="card-title">URBAN ATM VE KABİN SİSTEMLERİ İMALATI</h4>
-                </div>
+                
                 <div class="card-body">
-                    <p>Urban Kabin, şehir yaşamına uyum sağlayan güvenli, dayanıklı ve estetik kabin sistemleri üretmektedir. İstanbul merkezli üretim tesislerimizde, ATM kabinleri, güvenlik kabinleri, vale kabinleri, otomat kabinleri, konteyner kabinleri, tehlikeli ve tehlikesiz atık kabinleri, WC kabinleri ve bilet satış kabinleri gibi birçok alanda özel çözümler sunuyoruz.
-                    <ul class="point_order">
-                        <li><b>ATM Kabinleri:</b> Bankalar ve finans kurumları için güvenli ve dayanıklı yapılar.</li>
-                        <li><b>Güvenlik Kabinleri:</b> Kamu alanları, siteler ve iş yerleri için güvenlik personeline özel kabin çözümleri.</li>
-                        <li><b>Vale Kabinleri:</b> Restoranlar, oteller ve AVM’ler için ergonomik vale kabinleri.</li>
-                        <li><b>Otomat Kabinleri:</b> Gıda, içecek, bilet ve ödeme otomatları için koruyucu kabinler.</li>
-                        <li><b>Konteyner Kabinleri:</b> Şantiye, ofis ve geçici yaşam alanlarına özel modüler yapılar.</li>
-                        <li><b>Tehlikeli ve Tehlikesiz Atık Kabinleri:</b> Atık yönetimi için çevre dostu ve güvenli kabin çözümleri.</li>
-                        <li><b>WC Kabinleri:</b> Toplu kullanım alanları için hijyenik, dayanıklı ve taşınabilir tuvalet sistemleri.</li>
-                        <li><b>Bilet Satış Kabinleri:</b> Havaalanları, otogarlar ve etkinlik alanları için modern gişe çözümleri.</li>
+                    <div class="card-header ">
+                        <h4 class="card-title">URBAN REKLAM VE TABELA İMALATI</h4>
+                    </div>
+                    <p>
+                        İşletmenizin dış dünyaya açılan yüzü olan tabelalar, marka bilinirliğinizi artırmanın ve müşterilerinize profesyonel bir imaj sunmanın en etkili yollarından biridir. Urban Reklam olarak, İstanbul’da tabela imalatı, dijital baskı çözümleri ve reklam uygulamaları alanında profesyonel hizmet sunuyoruz. Işıklı ve ışıksız tabelalardan, kutu harf ve totem tabelalara kadar geniş ürün yelpazemizle işletmenizin tanıtım gücünü artırıyoruz.
+                    </p>
+                        
+                        <li><b>Işıklı Tabela İmalatı:</b> Işıklı tabelalar, özellikle gece saatlerinde işletmenizin görünürlüğünü artırmak için en etkili reklam çözümlerindendir. </li>
+                        <li><b>Işıksız Tabela İmalatı:</b> Minimalist ve sade bir tasarım isteyen işletmeler için ışıksız tabela modellerimiz, estetik ve kurumsal bir görünüm sunar. İç mekan ve dış mekan kullanımına uygun, dayanıklı malzemelerle üretilir.</li>
+                        <li><b>Kutu Harf Tabela:</b> Üç boyutlu ve dikkat çekici bir görünüm sağlayan kutu harf tabelalarımız, özellikle kurumsal firmalar için prestijli bir tercih sunar.</li>
+                        <li><b>Totem Tabela:</b> Totem tabelalar, yol kenarlarında veya geniş alanlarda uzun mesafelerden görünürlüğü sağlamak için en uygun tabela modelidir.</li>
+                        <li><b>Pleksi Tabela:</b> Şeffaf, parlak ve modern bir görünüm sunan pleksi tabelalar, iç ve dış mekanlarda estetik bir reklam alanı oluşturur.</li>
+                        <li><b>Dijital Baskı ve Araç Giydirme:</b> Urban Reklam, sadece tabela imalatı değil, aynı zamanda dijital baskı, araç giydirme ve iç mekan reklam çözümleri ile de işletmenizin tanıtım gücünü artırır.</li>
                     </ul>
+                    <div class="card-header mt-3">
+                        <h4 class="card-title">Urban Reklam ile Tabela İmalat Süreci</h4>
+                    </div>
+                    
+                    <p>Urban Reklam olarak, tabela imalat sürecinde her aşamada profesyonel ve müşteri odaklı bir yaklaşımla çalışıyoruz. Sürecimiz şu adımlardan oluşur:</p>
+                    <ul>
+                        <li><b>Talep ve İstek:</b> Müşterilerimizin ihtiyaçlarını anlamak ve onlara en uygun çözümleri sunmak için ilk adım.</li>
+                        <li><b>Tasarım ve Tasarım:</b> Müşteri ihtiyaçlarına uygun tasarım çalışmaları yapıyoruz.</li>
+                        <li><b>Üretim:</b> Tasarımınızı gerçekleştirmek için gerekli üretim süreci.</li>
+                        <li><b>Montaj:</b> Üretim tamamlandıktan sonra, tabelalarınızı monte etmek için gerekli işler.</li>
+                    </ul>
+                   
+                    <div class="card-header mt-3">
+                        <h4 class="card-title">İstanbul’da Tabela Fiyatları</h4>
+                    </div>
+                    <p>İstanbul'da tabela fiyatları; kullanılan malzeme, tabela boyutu, ışıklandırma türü ve montaj hizmeti gibi faktörlere göre değişiklik göstermektedir. Urban Reklam olarak, işletmenize özel fiyatlandırma ile en uygun tabela çözümlerini sunuyoruz.                    </p>
+                    
                 </div>
             </div>
         </div>
