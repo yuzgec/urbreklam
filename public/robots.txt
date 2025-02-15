@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.urbanreklam.com.tr/sitemap/tr/sitemap.xml
+
+
