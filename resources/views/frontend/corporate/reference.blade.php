@@ -7,15 +7,15 @@
             <div class="page_header_content d-flex align-items-center justify-content-between">
                 <div class="d-flex flex-column">
                     <h1 class="heading">
-                        Urban - Referanslar
+                        {{ __('site.referanslar') }}
                     </h1>
                     <div class="">
                         <p class="text-olive">{{config('settings.siteTitle')}}</p>
                     </div>
                 </div>
                 <ul class="breadcrumb d-flex align-items-center">
-                    <li><a href="{{ route('home')}}">Anasayfa</a></li>
-                    <li class="active">Referanslar</li>
+                    <li><a href="{{ route('home')}}">{{ __('site.anasayfa') }}</a></li>
+                    <li class="active">{{ __('site.referanslar') }}</li>
                 </ul>
             </div>
         </div>

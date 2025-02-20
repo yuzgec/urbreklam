@@ -286,7 +286,7 @@
     </div>
     <div class="container">
         <div class="section-header text-center has_line">
-            <h2 class="text-white">BLOG YAZILARI</h2>
+            <h2 class="text-white">{{ __('site.blog_yazilari') }}</h2>
         </div>
         <div class="row">
             @foreach($Blog->take(6) as $item)
@@ -304,7 +304,8 @@
                             <div class="details_link">
                                 <a href="{{route('blogdetail', $item->slug)}}" title="{{ $item->title }}">
                                     <span class="link_text">
-                                        Devamını Oku</span>
+                                        {{ __('site.devaminioku') }}
+                                    </span>
                                     <span class="link_icon">
                                         <span class="line"></span>
                                         <span class="circle"></span>
@@ -331,50 +332,6 @@
                 </div>
                 <div class="card-body">
                     {!! $Index->desc!!}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="container " style="z-index: 1000;">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="card mb-3 mt-3">
-                
-                <div class="card-body">
-                    <div class="card-header ">
-                        <h4 class="card-title">URBAN REKLAM VE TABELA İMALATI</h4>
-                    </div>
-                    <p>
-                        İşletmenizin dış dünyaya açılan yüzü olan tabelalar, marka bilinirliğinizi artırmanın ve müşterilerinize profesyonel bir imaj sunmanın en etkili yollarından biridir. Urban Reklam olarak, İstanbul’da tabela imalatı, dijital baskı çözümleri ve reklam uygulamaları alanında profesyonel hizmet sunuyoruz. Işıklı ve ışıksız tabelalardan, kutu harf ve totem tabelalara kadar geniş ürün yelpazemizle işletmenizin tanıtım gücünü artırıyoruz.
-                    </p>
-                        
-                        <li><b>Işıklı Tabela İmalatı:</b> Işıklı tabelalar, özellikle gece saatlerinde işletmenizin görünürlüğünü artırmak için en etkili reklam çözümlerindendir. </li>
-                        <li><b>Işıksız Tabela İmalatı:</b> Minimalist ve sade bir tasarım isteyen işletmeler için ışıksız tabela modellerimiz, estetik ve kurumsal bir görünüm sunar. İç mekan ve dış mekan kullanımına uygun, dayanıklı malzemelerle üretilir.</li>
-                        <li><b>Kutu Harf Tabela:</b> Üç boyutlu ve dikkat çekici bir görünüm sağlayan kutu harf tabelalarımız, özellikle kurumsal firmalar için prestijli bir tercih sunar.</li>
-                        <li><b>Totem Tabela:</b> Totem tabelalar, yol kenarlarında veya geniş alanlarda uzun mesafelerden görünürlüğü sağlamak için en uygun tabela modelidir.</li>
-                        <li><b>Pleksi Tabela:</b> Şeffaf, parlak ve modern bir görünüm sunan pleksi tabelalar, iç ve dış mekanlarda estetik bir reklam alanı oluşturur.</li>
-                        <li><b>Dijital Baskı ve Araç Giydirme:</b> Urban Reklam, sadece tabela imalatı değil, aynı zamanda dijital baskı, araç giydirme ve iç mekan reklam çözümleri ile de işletmenizin tanıtım gücünü artırır.</li>
-                    </ul>
-                    <div class="card-header mt-3">
-                        <h4 class="card-title">Urban Reklam ile Tabela İmalat Süreci</h4>
-                    </div>
-                    
-                    <p>Urban Reklam olarak, tabela imalat sürecinde her aşamada profesyonel ve müşteri odaklı bir yaklaşımla çalışıyoruz. Sürecimiz şu adımlardan oluşur:</p>
-                    <ul>
-                        <li><b>Talep ve İstek:</b> Müşterilerimizin ihtiyaçlarını anlamak ve onlara en uygun çözümleri sunmak için ilk adım.</li>
-                        <li><b>Tasarım ve Tasarım:</b> Müşteri ihtiyaçlarına uygun tasarım çalışmaları yapıyoruz.</li>
-                        <li><b>Üretim:</b> Tasarımınızı gerçekleştirmek için gerekli üretim süreci.</li>
-                        <li><b>Montaj:</b> Üretim tamamlandıktan sonra, tabelalarınızı monte etmek için gerekli işler.</li>
-                    </ul>
-                   
-                    <div class="card-header mt-3">
-                        <h4 class="card-title">İstanbul’da Tabela Fiyatları</h4>
-                    </div>
-                    <p>İstanbul'da tabela fiyatları; kullanılan malzeme, tabela boyutu, ışıklandırma türü ve montaj hizmeti gibi faktörlere göre değişiklik göstermektedir. Urban Reklam olarak, işletmenize özel fiyatlandırma ile en uygun tabela çözümlerini sunuyoruz.                    </p>
-                    
                 </div>
             </div>
         </div>
