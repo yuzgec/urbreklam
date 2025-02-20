@@ -102,64 +102,54 @@
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="about_image">
-                    <img src="/frontend/hakkimizda.jpg" alt="{{ config('settings.siteTitle')}}">
-                    <img src="/frontend/img/about/e1.svg" alt="{{ config('settings.siteTitle')}}" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="/frontend/hakkimizda.jpg" alt="{{ __('site.firma')}}">
+                    <img src="/frontend/img/about/e1.svg" alt="{{ __('site.firma')}}" data-aos="fade-down" data-aos-duration="1000">
                 </div>
             </div>
             <div class="col-lg-6 col-md-7">
                 <div class="about_text_inner">
                     <div class="about_text">
-                        <h2 class="text-white">{{ config('settings.siteTitle')}}</h2>
-                       {!! $Hakkimizda->short !!}
+                        <h2 class="text-white">{{ __('site.firma') }}</h2>
+                        {!! $Hakkimizda->short !!}
                     </div>
 
                     <div class="about_icon_box">
-                        <h3 class="text-dark mb-2">NEDEN URBAN REKLAM</h3>
+                        <h3 class="text-dark mb-2">{{ __('site.neden_urban_kabin') }}</h3>
                         <div class="row mt-4">
                             <div class="col-lg-6 col-12 mb-2">
-                                <h6>Yüksek Kalite:</h6>
-                                <p>Tüm üretimlerimizde dayanıklı, uzun ömürlü ve hava koşullarına dayanıklı malzemeler kullanarak, markanız için en iyi kaliteyi sunuyoruz.</p>
+                                <h6>{{ __('site.neden_1_title') }}</h6>
+                                <p>{{ __('site.neden_1_text') }}</p>
                             </div>
                             <div class="col-lg-6 mb-2">
-                                <h6>Özel Tasarım</h6>
-                                <p>Kurumsal kimliğinize ve işletmenize özel özgün tasarımlar geliştirerek, rakiplerinizden farklı olmanızı sağlıyoruz. </p>
+                                <h6>{{ __('site.neden_2_title') }}</h6>
+                                <p>{{ __('site.neden_2_text') }}</p>
                             </div>
                             <div class="col-lg-6 mb-2">
-                                <h6>Teknolojik Üretim</h6>
-                                <p>CNC kesim, lazer kesim, UV baskı ve LED aydınlatma gibi en yeni teknolojileri kullanarak, modern ve şık tabela çözümleri üretiyoruz. </p>
+                                <h6>{{ __('site.neden_3_title') }}</h6>
+                                <p>{{ __('site.neden_3_text') }}</p>
                             </div>
                             <div class="col-lg-6 mb-2">
-                                <h6>Hızlı Teslimat</h6>
-                                <p>Üretim sürecimizi titizlikle planlayarak, projelerinizi zamanında teslim ediyor ve profesyonel montaj hizmeti sunuyoruz.</p>
+                                <h6>{{ __('site.neden_4_title') }}</h6>
+                                <p>{{ __('site.neden_4_text') }}</p>
                             </div>
                             <div class="col-lg-6 mb-2">
-                                <h6>Uygun Fiyat</h6>
-                                <p>Kaliteden ödün vermeden bütçenize uygun ekonomik çözümler sunarak, uzun vadeli ve maliyet avantajı sağlayan reklam uygulamaları yapıyoruz.</p>
+                                <h6>{{ __('site.neden_5_title') }}</h6>
+                                <p>{{ __('site.neden_5_text') }}</p>
                             </div>
                             <div class="col-lg-6 mb-2">
-                                <h6>Müşteri Memnuniyeti</h6>
-                                <p>Her projeyi titizlikle ele alıyor, iş ortaklarımıza güvenilir, profesyonel ve yüksek memnuniyet garantili hizmet sunuyoruz.</p>
+                                <h6>{{ __('site.neden_5_title') }}</h6>
+                                <p>{{ __('site.neden_5_text') }}</p>
                             </div>
                         </div>
                     </div>
                     <div class="btn_group" data-aos="fade-down" data-aos-duration="1000">
-                        <a href="{{ route('corporatedetail','hakkimizda') }}" class="btn gray">Devamını Oku </a>  
+                        <a href="{{ route('corporatedetail','hakkimizda') }}" class="btn gray">{{__('site.devaminioku')}}</a>  
                     </div>
                 </div>
                                     
             </div>
         </div>
     </div>
-
-    <ul class="grid_lines d-none d-md-flex justify-content-between">
-        <li class="grid_line"></li>
-        <li class="grid_line"></li>
-        <li class="grid_line"></li>
-        <li class="grid_line"></li>
-        <li class="grid_line"></li>
-        <li class="grid_line"></li>
-        <li class="grid_line"></li>
-    </ul>
 </section>
 
 <section class="funfacts bg_1" id="funfacts">
@@ -173,7 +163,7 @@
                             <img src="/urbanicon.png" alt="{{ config('settings.siteTitle')}}" class="light" style="width: 50px;">
                         </div>
                         <div class="funfact_content">
-                            <p>YAPILAN İŞLER</p>
+                            <p>{{ __('site.yapilan_isler') }}</p>
                             <div class="d-flex align-items-center"><h2 class="fun-number">300</h2><span>+</span></div>                                
                         </div>
                     </div>                            
@@ -182,7 +172,7 @@
                             <img src="/urbanicon.png" alt="{{ config('settings.siteTitle')}}" class="light" style="width: 50px;">
                         </div>
                         <div class="funfact_content">
-                            <p>MÜŞTERİ MEMNUNİYETİ</p>
+                            <p>{{ __('site.musteri_memnuniyeti') }}</p>
                             <div class="d-flex align-items-center"><h2 class="fun-number">100%</h2></div>
                         </div>
                     </div>                            
@@ -191,7 +181,7 @@
                             <img src="/urbanicon.png" alt="{{ config('settings.siteTitle')}}" class="light" style="width: 50px;">
                         </div>
                         <div class="funfact_content">
-                            <p>YENİ ÜRÜNLER</p>
+                            <p>{{ __('site.yeni_urunler') }}</p>
                             <div class="d-flex align-items-center"><h2 class="fun-number">15</h2><span>+</span></div>
                         </div>
                     </div>                            
@@ -200,7 +190,7 @@
                             <img src="/urbanicon.png" alt="{{ config('settings.siteTitle')}}" class="light" style="width: 50px;">
                         </div>
                         <div class="funfact_content">
-                            <p>DEVAM EDEN İŞLER</p>
+                            <p>{{ __('site.devam_eden_isler') }}</p>
                             <div class="d-flex align-items-center"><h2 class="fun-number">2</h2><span>+</span></div>
                         </div>
                     </div>
@@ -225,18 +215,17 @@
     </div>
     <div class="container">
         <div class="section-header text-center has_line">
-            <h2 class="text-white">YAPILAN İŞLER</h2>
+            <h2 class="text-white">{{ __('site.yapilan_isler') }}</h2>
             <div class="section-desc row align-items-center justify-content-center">
                 <div class="col-lg-12">
-                    <p>Urban Reklam olarak gerçekleştirdiğimiz referans projeler, kalite ve estetiği ön planda tutarak her müşterimizin kurumsal kimliğine özel çözümler sunduğumuzu göstermektedir. Her projede zamanında teslimat ve kusursuz işçilik anlayışıyla hareket ederek, sektördeki güvenilirliğimizi ve profesyonelliğimizi pekiştirmeye devam ediyoruz.
-                    </p>
+                    <p>{{ __('site.yapilan_isler_alt_text') }}</p>
                 </div>
             </div>
         </div>
 
         <div class="portfolio-filters-content">
             <div class="filters-button-group">
-                <button class="button" data-slug="">Hepsi</button>
+                <button class="button" data-slug="">{{ __('site.hepsi') }}</button>
                 @foreach($Services as $item)
                     <button class="button {{ $item->id == 1 ? 'is-checked' : '' }}" data-slug="{{ $item->translate('tr')->slug }}">
                         {{$item->translate('tr')->title}}
@@ -253,7 +242,7 @@
             </div>
         </div>
         <div class="btn_group mt-4 w-100 text-center">
-            <a href="{{ route('project') }}" class="btn olive w-100">Bütün Projeleri Gör</a>
+            <a href="{{ route('project') }}" class="btn olive w-100">{{ __('site.tum_projeleri_gor') }}</a>
         </div>
     </div>
 </section>
@@ -335,6 +324,22 @@
 
 <div class="container " style="z-index: 1000;">
     <div class="row">
+        <div class="col-lg-12 content">
+            <div class="card mb-3 mt-3">
+                <div class="card-header">
+                    <h4 class="card-title">{{ $Index->title }}</h4>
+                </div>
+                <div class="card-body">
+                    {!! $Index->desc!!}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container " style="z-index: 1000;">
+    <div class="row">
         <div class="col-lg-12">
             <div class="card mb-3 mt-3">
                 
@@ -388,7 +393,7 @@
     min-height: 200px;
 }
 .loading:after {
-    content: 'Yükleniyor...';
+    content: '{{ __('site.yukleniyor') }}';
     position: absolute;
     top: 50%;
     left: 50%;
