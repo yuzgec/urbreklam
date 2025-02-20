@@ -114,7 +114,7 @@
                     </div>
 
                     <div class="about_icon_box">
-                        <h3 class="text-dark mb-2">{{ __('site.neden_urban_kabin') }}</h3>
+                        <h3 class="text-dark mb-2">{{ __('site.neden_urban_reklama') }}</h3>
                         <div class="row mt-4">
                             <div class="col-lg-6 col-12 mb-2">
                                 <h6>{{ __('site.neden_1_title') }}</h6>
