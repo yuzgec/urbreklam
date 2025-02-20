@@ -227,9 +227,9 @@
             <div class="filters-button-group">
                 <button class="button" data-slug="">{{ __('site.hepsi') }}</button>
                 @foreach($Services as $item)
-                    <button class="button {{ $item->id == 1 ? 'is-checked' : '' }}" data-slug="{{ $item->translate('tr')->slug }}">
-                        {{$item->translate('tr')->title}}
-                        <sup class="filter-count">{{ $imageCounts[$item->translate('tr')->slug] ?? 0 }}</sup>
+                    <button class="button {{ $item->id == 1 ? 'is-checked' : '' }}" data-slug="{{ $item->slug }}">
+                        {{$item->title}}
+                        <sup class="filter-count">{{ $imageCounts[$item->slug] ?? 0 }}</sup>
                     </button>
                 @endforeach
             </div>
