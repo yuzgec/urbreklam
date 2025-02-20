@@ -3,7 +3,6 @@
 @section('content')
 
 @include('frontend.layout.slider')
-
 <section class="services bg-dark-100 pt-4 pb-0">
     <ul class="grid_lines d-none d-md-flex justify-content-between">
         <li class="grid_line"></li>
@@ -20,11 +19,10 @@
     </div>
     <div class="container">
         <div class="section-header text-center has_line">
-            <h1 class="text-uppercase">{{ config('settings.siteTitle')}}</h1>
+            <h1>{{ __('site.firma') }}</h1>
             <div class="section-desc row align-items-center justify-content-center">
                 <div class="col-lg-12">
-                    <p>Urban Reklam olarak, tabela sektöründe en yeni teknolojileri ve yaratıcı tasarımları kullanarak, işletmenizin en iyi şekilde görünmesini sağlıyoruz.
-                    </p>
+                    <p>{{ __('site.hizmet_slogan') }}</p>
                 </div>
             </div>
         </div>
@@ -32,9 +30,11 @@
             @foreach ($Service as $item)
             <div class="col-lg-4 mb-3 content" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card card-hover">
+
                     <div class="card-body">
+                        <img class="card-img-top" src="{{ $item->getFirstMediaUrl('page', 'thumb') }}" alt="{{ $item->title }}">
                         <div class="icon_box mb-4 mt-3">
-                            <img src="/urbanicon.png" alt="{{ $item->title }}" class="light" style="width: 50px;">
+                            <img src="/urbanicon.png" alt="{{ $item->title }}" class="light" style="position: absolute;top: 25px;right: 25px;width: 50px;">
                         </div>
                         <h4 class="card-title"><a href="{{ route('servicedetail', $item->slug) }}" title="{{ $item->title }}">{{ $item->title }}</a></h4>
                         <p class="card-text">
@@ -42,7 +42,7 @@
                         </p>
                         <div class="details_link">
                             <a href="{{ route('servicedetail', $item->slug) }}" title="{{ $item->title }}">
-                                <span class="link_text">Devamını Oku</span>
+                                <span class="link_text">{{ __('site.devaminioku') }}</span>
                                 <span class="link_icon">
                                     <span class="line"></span>
                                     <span class="circle"></span>
@@ -59,32 +59,39 @@
 
 </section>
 
-
-<div class="container" style="z-index: 100000 !important;margin-top:100px">
-
-    <div class="text-center has_line">
-        <h2>REFERANSLAR</h2>
-        <div class="section-desc row align-items-center justify-content-center">
-            <div class="col-lg-12">
-                <p>Firmanıızın kurumsal kimliğine uygun profesyonel çözümler sunuyoruz.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        @foreach($References->getMedia('gallery') as $item)
-        <div class="col-md-2 col-4 mb-4 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <img src="{{ $item->getUrl('thumb') }}" alt="{{config('settings.siteTitle')}}" class="img-fluid black-white-img">
+<div>
+    <div class="container" style="z-index: 1000;margin-top:100px">
+        <div class=" text-center has_line">
+            <h1>{{ __('site.referanslar') }}</h1>
+            <div class="section-desc row align-items-center justify-content-center">
+                <div class="col-lg-12">
+                    <p>{{ __('site.referans_alt_text') }}</p>
                 </div>
             </div>
         </div>
-        @endforeach
+        <div class="row">
+        @foreach($References->getMedia('gallery')->random(12) as $item)
+
+        <div class="col-md-2 col-4 mb-4 text-center">
+            <div class="card">
+                <div class="card-body">
+                    <img src="{{ $item->getUrl('thumb') }}" alt="{{ __('site.firma')}}" class="img-fluid black-white-img">
+                </div>
+            </div>
+        </div>
+      @endforeach
     </div>
+</div>
 
-
-  
+    <ul class="grid_lines d-none d-md-flex justify-content-between">
+        <li class="grid_line"></li>
+        <li class="grid_line"></li>
+        <li class="grid_line"></li>
+        <li class="grid_line"></li>
+        <li class="grid_line"></li>
+        <li class="grid_line"></li>
+        <li class="grid_line"></li>
+    </ul>
 </div>
 
 <section class="about bg-dark-100">
