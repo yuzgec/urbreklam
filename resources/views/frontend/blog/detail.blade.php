@@ -1,7 +1,7 @@
 @extends('frontend.layout.app')
 @section('content')
 
-<div class="page_header">
+<div class="page_header" dir="ltr">
     <div class="page_header_inner">
         <div class="container">
             <div class="page_header_content d-flex align-items-center justify-content-between">
@@ -16,8 +16,8 @@
            
 
                 <ul class="breadcrumb d-flex align-items-center">
-                    <li><a href="{{ route('home')}}">Anasayfa</a></li>
-                    <li><a href="{{ route('blog')}}">Blog</a></li>
+                    <li><a href="{{ route('home')}}">{{ __('site.anasayfa') }}</a></li>
+                    <li><a href="{{ route('blog')}}">{{ __('site.blog') }}</a></li>
                     <li class="active">{{$Detay->title}}</li>
                 </ul>
             </div>
