@@ -7,7 +7,9 @@ use App\Models\Blog;
 use App\Models\Page;
 use App\Models\Pivot;
 use App\Models\Product;
+use App\Models\Slider;
 use App\Models\Service;
+use App\Models\LanguageLine;
 use Illuminate\Http\Request;
 use App\Services\MediaService;
 use App\Models\ProductCategory;
@@ -18,7 +20,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 class HomeController extends Controller
 {
     public function index(){
-        SEOMeta::setDescription('Urban Reklam, Krom, Kutu, Totem, Işıklı tabela imalatı, fuar standı, konuşma kürsüsü  yapmaktadır.. Lütfen iletişime geçiniz.');
+
+
+        $Slider = Slider::orderBy('rank')->get();
+        $Index = Page::where('id', 10)->first();
+
+        SEOMeta::setTitle('WC Kabin - Otomat İmalatı');
+        SEOMeta::setDescription('Urban Kabin ATM kabini, WC Kabin, Otomatik kabin ve diğer kabin imalatlarını yapmaktadır. Lütfen iletişime geçiniz.');
         SEOMeta::setCanonical(url()->full());
         
         $Hakkimizda = Page::where('id', '=',1)->first();
@@ -34,12 +42,12 @@ class HomeController extends Controller
                     [Service::class],
                     function ($query) use ($service) {
                         $query->whereHas('translations', function($q) use ($service) {
-                            $q->where('slug', $service->translate('tr')->slug);
+                            $q->where('slug', $service->slug);
                         });
                     }
                 )->count();
             
-            $imageCounts[$service->translate('tr')->slug] = $count;
+            $imageCounts[$service->slug] = $count;
         }
 
         $mediaService = new MediaService();
@@ -62,7 +70,7 @@ class HomeController extends Controller
                 return $media->getCustomProperty('orientation') === 'horizontal' ? 1 : 0;
             });
 
-        return view('frontend.index', compact('Hakkimizda', 'galleryImages', 'Services', 'imageCounts', 'defaultService'));
+        return view('frontend.index', compact('Hakkimizda', 'galleryImages', 'Services', 'imageCounts', 'defaultService', 'Slider', 'Index'));
     }
 
     public function categorydetail($url)
@@ -190,7 +198,7 @@ class HomeController extends Controller
 
     public function reference(){
 
-        $Reference = Page::where('id', 1)->first();
+        $Reference = Page::where('id', 5 )->first();
         SEOMeta::setTitle('Referanslarımız');
         SEOMeta::setCanonical(url()->full());
         return view('frontend.corporate.reference', compact('Reference'));

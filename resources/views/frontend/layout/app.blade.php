@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="{{ config('app.locale') }}" dir="{{ config('app.locale') == 'sa' ? 'rtl' : 'ltr' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +58,7 @@
         position: absolute;
         top: 20px;
         left: 20px;
-        background: #2dea00;
+        background: #ffa500;
         color: #fff;
         padding: 5px 15px;
         font-size: 14px;
@@ -74,7 +74,7 @@
         position: absolute;
         left: 0;
         bottom: 70px;
-        color: #2dea00;
+        color: #ffa500;
         font-size: 24px;
         font-weight: bold;
     }
@@ -97,7 +97,7 @@
     .post-link .dot {
         width: 6px;
         height: 6px;
-        background: #2dea00;
+        background: #ffa500;
         border-radius: 50%;
         margin-left: 10px;
         transition: transform 0.3s ease;
@@ -252,7 +252,7 @@
 
 <body class="bg-white">
 
-    <div id="preloader">
+    <div id="preloader" dir="ltr">
         <div class="preloader-inner">
             <div class="spinner"></div>
             <div class="loading-text">
@@ -286,7 +286,6 @@
         </a>
         <a href="https://wa.me/{{config('settings.whatsapp')}}" class="contact-button whatsapp" target="_blank">
             <i class="bi bi-whatsapp text-white"></i>
-            <div class="whatsapp-tooltip">Hemen mesaj gönderin! 👋</div>
         </a>
         <a href="https://www.instagram.com/{{config('settings.instagram')}}" class="contact-button instagram" target="_blank">
             <i class="bi bi-instagram text-white"></i>
