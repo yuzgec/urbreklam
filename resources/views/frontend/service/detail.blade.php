@@ -153,7 +153,7 @@
 <style>
     /* Slider CSS */
     .gallery_slider .swiper-slide {
-        height: 500px;
+        height: 700px;
     }
     .gallery_slider .gallery-image {
         width: 100%;
