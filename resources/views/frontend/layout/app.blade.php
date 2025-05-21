@@ -212,7 +212,7 @@
 
     /* Logo Stilleri */
     .logo img {
-        max-height: 150px;
+        max-height: 200px;
         transition: opacity 0.3s ease;
     }
 
