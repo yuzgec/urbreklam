@@ -290,7 +290,7 @@
         <a href="https://www.instagram.com/{{config('settings.instagram')}}" class="contact-button instagram" target="_blank">
             <i class="bi bi-instagram text-white"></i>
         </a>
-        <a href="tel:{{config('settings.telefon1')}}" class="contact-button phone">
+        <a href="tel:9{{config('settings.telefon1')}}" class="contact-button phone">
             <i class="bi bi-phone text-white"></i>
         </a>
     </div>

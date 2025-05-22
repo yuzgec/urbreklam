@@ -25,7 +25,7 @@
                     </li>
                     <li class="menu-item menu-item-has-children"><a href="#">{{ __('site.hizmetlerimiz') }}</a>
                         <ul class="sub-menu">
-                            @foreach ($Service as $item)
+                            @foreach ($Service->take(12) as $item)
                                 <li class="menu-item">
                                     <a href="{{ route('servicedetail', $item->slug) }}" title="{{ $item->title }}">
                                         {{ $item->title }}
